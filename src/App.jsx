@@ -21,7 +21,7 @@ export default function Page() {
       "Surely not?",
       "You might regret this!",
       "Give it another thought!",
-      "Are you absolutely certain?",
+      "IM GONNA KILL MYSELFFFF",
       "This could be a mistake!",
       "Have a heart!",
       "Don't be so cold!",
@@ -85,17 +85,3 @@ export default function Page() {
   );
 }
 
-const Footer = () => {
-  return (
-    <a
-      className="fixed bottom-2 right-2 backdrop-blur-md opacity-80 hover:opacity-95 border p-1 rounded border-rose-300"
-      href="https://github.com/Xeven777/valentine"
-      target="__blank"
-    >
-      Made with{" "}
-      <span role="img" aria-label="heart">
-        ❤️
-      </span>
-    </a>
-  );
-};
